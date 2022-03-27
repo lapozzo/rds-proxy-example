@@ -1,6 +1,6 @@
 # Introduction
 
-Simple RDS Proxy example
+Simple RDS Proxy example with Terraform
 
 ## Requirements
 * aws-cli/2.0.56+

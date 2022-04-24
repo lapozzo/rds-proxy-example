@@ -24,4 +24,6 @@ aws rds describe-db-proxy-target-groups --db-proxy-name rdsproxy
 
 Verify the CloudWatch /aws/rds/proxy/rdsproxy log group and Proxy metrics for some hints.
 
+Carefully read the 'Quotas and limitations for RDS Proxy', for example: 'all proxies listen on port 3306 for MySQL' event if your MySql listen on another port, that can lead to Time Out if your security group not allow 3306.
+
 More info: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-proxy.troubleshooting.html
